@@ -82,7 +82,7 @@
                     <release>${release.version}%{?dist}</release>
                     <requires>
                         <require>bigtop-tomcat</require>
-                        <require>${hawq.dep.name} &gt;= ${project.version}</require>
+                        <require>${hawq.dep.name} >= ${project.version}</require>
                     </requires>
                     <mappings>
                         <mapping>
@@ -306,7 +306,7 @@
             <dependency>
                 <groupId>org.powermock</groupId>
                 <artifactId>powermock-api-mockito</artifactId>
-                <version>1.6.5</version>
+                <version>1.7.4</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>

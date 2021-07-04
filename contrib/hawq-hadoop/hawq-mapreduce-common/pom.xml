@@ -48,7 +48,7 @@ under the License.
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.2-1003-jdbc4</version>
+            <version>9.4.1212.jre7</version>
         </dependency>
     </dependencies>
 

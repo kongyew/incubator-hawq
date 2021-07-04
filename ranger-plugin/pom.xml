@@ -82,7 +82,7 @@
                     <release>${release.version}%{?dist}</release>
                     <requires>
                         <require>bigtop-tomcat</require>
-                        <require>${hawq.dep.name} &gt;= ${project.version}</require>
+                        <require>${hawq.dep.name} >= ${project.version}</require>
                     </requires>
                     <mappings>
                         <mapping>
@@ -229,7 +229,7 @@
             <dependency>
                 <groupId>org.apache.ranger</groupId>
                 <artifactId>ranger-plugins-common</artifactId>
-                <version>0.6.0</version>
+                <version>0.7.1</version>
             </dependency>
             <dependency>
                 <groupId>log4j</groupId>

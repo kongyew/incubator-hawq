@@ -82,7 +82,7 @@
                     <release>${release.version}%{?dist}</release>
                     <requires>
                         <require>bigtop-tomcat</require>
-                        <require>${hawq.dep.name} &gt;= ${project.version}</require>
+                        <require>${hawq.dep.name} >= ${project.version}</require>
                     </requires>
                     <mappings>
                         <mapping>
@@ -288,7 +288,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.12</version>
+                <version>4.13.2</version>
                 <scope>test</scope>
             </dependency>
             <dependency>

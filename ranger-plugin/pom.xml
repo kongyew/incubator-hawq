@@ -33,7 +33,7 @@
     </modules>
 
     <properties>
-        <hadoop.version>2.7.1</hadoop.version>
+        <hadoop.version>3.2.3</hadoop.version>
         <jackson.version>1.9</jackson.version>
         <release.version>1</release.version>
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
@@ -82,7 +82,7 @@
                     <release>${release.version}%{?dist}</release>
                     <requires>
                         <require>bigtop-tomcat</require>
-                        <require>${hawq.dep.name} &gt;= ${project.version}</require>
+                        <require>${hawq.dep.name} >= ${project.version}</require>
                     </requires>
                     <mappings>
                         <mapping>

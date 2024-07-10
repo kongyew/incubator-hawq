@@ -3,3 +3,4 @@ pytest-cov
 coverage
 coveralls
 pytest-capturelog
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
